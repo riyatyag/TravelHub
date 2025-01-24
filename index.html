@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TravelHub is your ultimate travel companion offering seamless booking, personalized itineraries, and unique destination discoveries.">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Website</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <nav>
+          <div class="nav__menu__btn" id="menu-btn">
+            <!-- Replaced menu icon with airplane icon -->
+            <span><i class="ri-plane-line"></i></span>
+            <h1><span>TravelHub</span></h1>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#travel">Travel</a></li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#client">Client</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h1><br>Revolutionizing Travel<br />at Your Fingertips</h1>
+          <p class="section__description">
+            Unlock the world with our all-in-one travel app. Whether you're planning your next getaway or looking to explore new destinations, our user-friendly platform simplifies the entire journey, from booking flights to discovering hidden gems, all in one place.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Travel Section -->
+    <section class="section__container travel__container" id="travel">
+      <div class="travel__image">
+        <img src="assets/travel.jpg" alt="travel" />
+      </div>
+      <div class="travel__content">
+        <h2 class="section__header">Your Ultimate Travel Companion</h2>
+        <p class="section__description">
+          Experience seamless travel with our all-inclusive concierge service. Whether you need personalized itineraries, expert travel tips, or exclusive offers, our app ensures a stress-free and memorable journey from start to finish.
+        </p>
+        <button class="btn">Explore Features</button>
+        <img src="assets/map.jpg" alt="map" />
+      </div>
+    </section>
+
+    <!-- Explore Section -->
+    <section class="section__container explore__container" id="explore">
+      <div class="explore__content">
+        <h2 class="section__header">
+          Unveil Hidden Treasures & Must-See Destinations
+        </h2>
+        <p class="section__description">
+          Our app isn't just about booking—it’s about discovering. Get access to exclusive travel guides, local secrets, and handpicked attractions to explore the world in the most enriching way possible.
+        </p>
+        <button class="btn">Start Exploring</button>
+      </div>
+      <div class="explore__wrapper">
+        <div class="explore__wrapper-inner">
+          <img src="assets/explore-1.jpg" alt="explore" />
+          <img src="assets/explore-2.jpg" alt="explore" />
+          <img src="assets/explore-3.jpg" alt="explore" />
+          <img src="assets/explore-4.jpg" alt="explore" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section class="section__container discover__container" id="discover">
+      <h2 class="section__header">
+        Discover Your Dream Destination and Travel Like a Pro
+      </h2>
+      <div class="discover__grid">
+        <div class="discover__destination">
+          <div class="discover__destination__image">
+            <img src="assets/destination-1.jpg" alt="destination" />
+            <img src="assets/destination-2.jpg" alt="destination" />
+          </div>
+          <h4>Explore Destinations Tailored to Your Taste</h4>
+          <p class="section__description">
+            Our expertly curated collection of destinations brings you the best of every corner of the world. Whether you're an adventure seeker, a history buff, or simply in search of relaxation, we’ve got your next dream destination waiting.
+          </p>
+          <button class="btn">Discover More</button>
+        </div>
+        <div class="discover__plan">
+          <div class="discover__plan__content">
+            <h4>Plan Your Perfect Trip in Minutes</h4>
+            <p class="section__description">
+              Organize your itinerary in a few simple steps. With real-time flight updates, hotel options, and travel tips, planning your trip is as easy as tapping a few buttons. Let us handle the details, while you focus on the excitement ahead.
+            </p>
+            <button class="btn">Plan Your Trip</button>
+          </div>
+          <img src="assets/plan.png" alt="plan" />
+        </div>
+        <div class="discover__guide">
+          <div class="discover__guide__content">
+            <h4>Your Ultimate Travel Guide</h4>
+            <p class="section__description">
+              Our app serves as your personal travel advisor, offering detailed guides to ensure you make the most of your trip. From budgeting tips to packing essentials, and navigating diverse cultures, we've got everything you need to travel smart and stress-free.
+            </p>
+            <button class="btn">Get the Guide</button>
+          </div>
+          <div class="discover__guide__image">
+            <img src="assets/guide.png" alt="guide" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Testimonials Section (Swiper Carousel) -->
+    <section class="section__container customer__container" id="client">
+      <h2 class="section__header">
+        Explore Real Stories from Our Passionate Travelers!
+      </h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-button-next"></div>
+
+            <div class="customer__card">
+              <img src="assets/customer-1.jpg" alt="customer" class="customer__image" />
+              <img src="assets/customer-user-1.jpg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+             The app made booking my trip a breeze—effortless and efficient!
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <div class="swiper-button-prev"></div>
+
+              <img src="assets/customer-2.jpg" alt="customer" class="customer__image" />
+              <img src="assets/customer-user-2.jpg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+
+                Incredible customer service—prompt responses and problem-solving.
+                <div class="swiper-button-next"></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <div class="swiper-button-prev"></div>
+
+              <img src="assets/customer-3.jpg" alt="customer" class="customer__image" />
+              <img src="assets/customer-user-3.jpg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+
+                Love the personalized itineraries, keeping me organized throughout trip.
+                <div class="swiper-button-next"></div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <div class="swiper-button-prev"></div>
+
+              <img src="assets/customer-4.jpg" alt="customer" class="customer__image" />
+              <img src="assets/customer-user-4.jpg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+                The travel updates feature kept me informed, especially during uncertain times.
+                <div class="swiper-button-next"></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <div class="swiper-button-prev"></div>
+
+              <img src="assets/customer-5.jpg" alt="customer" class="customer__image" />
+              <img src="assets/customer-user-5.jpg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+                Great discounts and exclusive deals—saved a lot on my bookings.
+                <div class="swiper-button-next"></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <div class="swiper-button-prev"></div>
+
+              <img src="assets/customer-6.jpg" alt="customer" class="customer__image" />
+              <img src="assets/customer-user-6.jpg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+                User-friendly interface and seamless navigation—my go-to travel companion.
+                <div class="swiper-button-next"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+      <section class="section__container faq__container" id="faq">
+      <h2 class="section__header">Frequently Asked Questions</h2>
+      <div class="faq__grid">
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>How do I find the best travel deals?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            We offer exclusive deals and discounts for all types of travelers. Keep an eye on our deals section for the latest promotions. You can also sign up for our newsletter to receive travel deals directly in your inbox!
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>What is the best time to book my travel?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Booking early typically guarantees the best deals. However, you can also find great last-minute offers, especially for off-peak travel periods. We recommend checking availability regularly to spot the best deals!
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>Can I customize my travel packages?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Yes! Our platform allows you to fully customize your travel experience. From flight selections to hotel bookings, sightseeing, and even activities, you can tailor your trip according to your preferences and budget.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>What are the payment options available?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            We offer a variety of payment methods, including credit and debit cards, PayPal, and other secure online payment systems. You can choose the method that suits you best at checkout.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>Is my personal information secure on the platform?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Yes, we take your privacy and security seriously. All personal information is encrypted and protected using industry-standard security protocols to ensure your data is safe with us.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>Can I cancel or modify my booking?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Yes, cancellations and modifications are allowed based on the terms and conditions of the service provider. Please check the booking details for the cancellation policy or contact customer support for assistance.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>Do you provide travel insurance?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Yes! We offer travel insurance options during the booking process to ensure that you're protected against unexpected events during your travels. You can add insurance to your trip when making your reservation.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <h2 class="section__header">Travel Hub</h2>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+        </div>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#discover">Discover</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 TravelHub. All rights reserved.
+      </div>
+    </footer>
+    
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html> 
